@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\dinas\Downloads\embedded project\tyu.uvproj
+Project File Date:  05/15/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_TM4C123.s...
+compiling yu.c...
+yu.c: Warning: C3910W: Old syntax, please use '--c99'.
+interrupt&parser.h(130): warning:  #550-D: variable "flag_found" was set but never used
+     bool flag_found = false; 
+interrupt&parser.h(224): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                  frac *= 0.1;
+interrupt&parser.h(233): warning:  #1-D: last line of file ends without a newline
+        
+distance.h(21): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return degrees + (minutes / 60.0);     // Combine as decimal degrees
+distance.h(49): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      return EARTH_RADIUS_M * c;  // Distance in meters
+yu.c: 5 warnings, 0 errors
+compiling system_TM4C123.c...
+system_TM4C123.c: Warning: C3910W: Old syntax, please use '--c99'.
+compiling Delay.c...
+Delay.c: Warning: C3910W: Old syntax, please use '--c99'.
+linking...
+Program Size: Code=8460 RO-data=1244 RW-data=20 ZI-data=2268  
+".\tyu.axf" - 0 Error(s), 8 Warning(s).
+</pre>
+</body>
+</html>

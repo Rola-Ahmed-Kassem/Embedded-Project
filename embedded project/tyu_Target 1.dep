@@ -1,0 +1,40 @@
+Dependencies for Project 'tyu', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x6824D75A)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\yu.c)(0x68260296)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\yu.o --omf_browse .\yu.crf --depend .\yu.d)
+I (UartInitalization.h)(0x681E73A0)
+I (tm4c123gh6pm.h)(0x67FA5C5E)
+I (funcUart.h)(0x682607C6)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdbool.h)(0x51C80BA4)
+I (Maacros&staticVar.h)(0x68248638)
+I (C:\Kiel_v4\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (interrupt&parser.h)(0x68260296)
+I (distance.h)(0x68260296)
+I (C:\Kiel_v4\ARM\ARMCC\include\math.h)(0x51C80BA4)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (UART_interface.h)(0x6824883C)
+I (STD_TYPES.h)(0x68249FCE)
+I (BIT_PATH.h)(0x6824883C)
+I (GPS_private.h)(0x6824883C)
+I (GPS_Config.h)(0x6824883C)
+I (GPS_Interface.h)(0x6824883C)
+F (.\system_TM4C123.c)(0x532C4792)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\system_tm4c123.o --omf_browse .\system_tm4c123.crf --depend .\system_tm4c123.d)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Kiel_v4\ARM\Inc\TI\TM4C123\TM4C123.h)(0x532C4878)
+I (C:\Kiel_v4\ARM\Inc\TI\TM4C123\TM4C123GH6PM.h)(0x532C4878)
+I (C:\Kiel_v4\ARM\CMSIS\Include\core_cm4.h)(0x532C4C22)
+I (C:\Kiel_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C4C22)
+I (C:\Kiel_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C4C22)
+I (C:\Kiel_v4\ARM\CMSIS\Include\core_cm4_simd.h)(0x532C4C22)
+I (C:\Kiel_v4\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x532C4878)
+F (.\Delay.c)(0x6824883C)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (Delay.h)(0x6824883C)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (.\BIT_PATH.h)(0x6824883C)()
+F (.\delay.h)(0x6824883C)()
+F (.\funcUart.h)(0x682607C6)()
+F (.\GPS_Config.h)(0x6824883C)()
+F (.\GPS_Interface.h)(0x6824883C)()
+F (.\GPS_private.h)(0x6824883C)()
+F (.\STD_TYPES.h)(0x68249FCE)()
+F (.\UART_interface.h)(0x6824883C)()

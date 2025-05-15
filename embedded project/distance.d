@@ -1,0 +1,1 @@
+.\distance.o: distance.c

@@ -1,0 +1,9 @@
+#ifndef GPS_PRIVATE_H
+#define GPS_PRIVATE_H
+
+#define SENTENCE_SIZE 256
+#define MAX_ATTEMPTS 5
+#define EARTH_RADIUS_M 6371000.0
+#define PI 3.14159265358979323846
+
+#endif
