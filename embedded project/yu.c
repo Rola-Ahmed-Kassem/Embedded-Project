@@ -43,39 +43,39 @@ Location places[] = {
 			{     
 				                           
 
-				   __disable_irq();
-				   UART0_SendString("main started\n");
-				   strcpy(copiedGpsStoredData,(const char*)gpsStoredData);
-				   flagEnd=false;
+			   __disable_irq();
+			   UART0_SendString("main started\n");
+			  strcpy(copiedGpsStoredData,(const char*)gpsStoredData);
+			  flagEnd=false;
 
-			     UART0_SendString("ISR OUTPUT: ");
-					 UART0_SendString(copiedGpsStoredData);
-           UART0_SendChar('\n');
-           __enable_irq();
+			 UART0_SendString("ISR OUTPUT: ");
+			 UART0_SendString(copiedGpsStoredData);
+                         UART0_SendChar('\n');
+                        __enable_irq();
           
-				 x= gpsDataParser(copiedGpsStoredData, Fields);  
+			 x= gpsDataParser(copiedGpsStoredData, Fields);  
 
 
      			 if(x)
-							{		  
-								//UART0_SendString("gpsDataParser OUTPUT:");
+			{		  
+				//UART0_SendString("gpsDataParser OUTPUT:");
 								
-                  UART0_SendString("Current Location: ");
+                                  UART0_SendString("Current Location: ");
                               
-									for (int i= 1 ;i<5 ; i++)
-											{ //UART0_SendChar('c');
+				for (int i= 1 ;i<5 ; i++)
+				{ //UART0_SendChar('c');
                         
-												UART0_SendString(Fields[i]);
-												UART0_SendChar(',');
+				UART0_SendString(Fields[i]);
+				UART0_SendChar(',');
 												
-											}
-											 // UART0_SendString("\r\n");  
+				}
+				 // UART0_SendString("\r\n");  
 											
 											
-							   latitude = simple_atof(Fields[1]);
-									//	UART0_SendChar('p');
+				 latitude = simple_atof(Fields[1]);
+				//	UART0_SendChar('p');
             
-			           longtitude = simple_atof(Fields[3]);
+			         longtitude = simple_atof(Fields[3]);
 							;
 
 							}
@@ -93,11 +93,11 @@ Location places[] = {
 
 
 
-							 u8 found = 0;
+	 u8 found = 0;
 							
-							UART0_SendChar('l');
+	UART0_SendChar('l');
        for (u8 i = 0; i < numPlaces; i++) {
-				 						//	UART0_SendChar('b');
+	//	UART0_SendChar('b');
 
             if (GPS_IsInRange(latitude, longtitude,
                               places[i].latitude,
