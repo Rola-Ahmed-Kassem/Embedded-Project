@@ -16,3 +16,6 @@
 .\yu.o: GPS_private.h
 .\yu.o: GPS_Config.h
 .\yu.o: GPS_Interface.h
+.\yu.o: LCD_-1.h
+.\yu.o: C:\Kiel_v4\ARM\ARMCC\bin\..\include\stdint.h
+.\yu.o: SysTick-1.h

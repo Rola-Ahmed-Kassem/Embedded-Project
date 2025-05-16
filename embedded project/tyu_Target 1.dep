@@ -1,6 +1,6 @@
 Dependencies for Project 'tyu', Target 'Target 1': (DO NOT MODIFY !)
 F (.\startup_TM4C123.s)(0x6824D75A)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
-F (.\yu.c)(0x68260296)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\yu.o --omf_browse .\yu.crf --depend .\yu.d)
+F (.\yu.c)(0x68275E86)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\yu.o --omf_browse .\yu.crf --depend .\yu.d)
 I (UartInitalization.h)(0x681E73A0)
 I (tm4c123gh6pm.h)(0x67FA5C5E)
 I (funcUart.h)(0x682607C6)
@@ -18,6 +18,9 @@ I (BIT_PATH.h)(0x6824883C)
 I (GPS_private.h)(0x6824883C)
 I (GPS_Config.h)(0x6824883C)
 I (GPS_Interface.h)(0x6824883C)
+I (LCD_-1.h)(0x682757CF)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (SysTick-1.h)(0x682757D0)
 F (.\system_TM4C123.c)(0x532C4792)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\system_tm4c123.o --omf_browse .\system_tm4c123.crf --depend .\system_tm4c123.d)
 I (C:\Kiel_v4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
 I (C:\Kiel_v4\ARM\Inc\TI\TM4C123\TM4C123.h)(0x532C4878)
@@ -38,3 +41,13 @@ F (.\GPS_Interface.h)(0x6824883C)()
 F (.\GPS_private.h)(0x6824883C)()
 F (.\STD_TYPES.h)(0x68249FCE)()
 F (.\UART_interface.h)(0x6824883C)()
+F (.\SysTick-1.c)(0x682757D1)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\systick-1.o --omf_browse .\systick-1.crf --depend .\systick-1.d)
+I (tm4c123gh6pm.h)(0x67FA5C5E)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (.\SysTick-1.h)(0x682757D0)()
+F (.\LCD_-1.h)(0x682757CF)()
+F (.\LCD_-2.c)(0x68275C78)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -c99 -I C:\Kiel_v4\ARM\RV31\INC-I C:\Kiel_v4\ARM\CMSIS\Include-I C:\Kiel_v4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\lcd_-2.o --omf_browse .\lcd_-2.crf --depend .\lcd_-2.d)
+I (LCD_-1.h)(0x682757CF)
+I (tm4c123gh6pm.h)(0x67FA5C5E)
+I (C:\Kiel_v4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (SysTick-1.h)(0x682757D0)

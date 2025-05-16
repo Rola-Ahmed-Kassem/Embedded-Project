@@ -421,11 +421,6 @@
               <FilePath>.\system_TM4C123.c</FilePath>
             </File>
             <File>
-              <FileName>distance.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\distance.c</FilePath>
-            </File>
-            <File>
               <FileName>Delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Delay.c</FilePath>
@@ -469,6 +464,26 @@
               <FileName>UART_interface.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\UART_interface.h</FilePath>
+            </File>
+            <File>
+              <FileName>SysTick-1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SysTick-1.c</FilePath>
+            </File>
+            <File>
+              <FileName>SysTick-1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\SysTick-1.h</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_-1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\LCD_-1.h</FilePath>
+            </File>
+            <File>
+              <FileName>LCD_-1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\LCD_-1.c</FilePath>
             </File>
           </Files>
         </Group>

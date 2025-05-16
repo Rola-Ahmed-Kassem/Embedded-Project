@@ -2,6 +2,8 @@
 #include "funcUart.h"
 #include "interrupt&parser.h"
 #include "distance.h"
+#include "LCD_-1.h"
+#include "SysTick-1.h"
 
 
 
@@ -121,51 +123,23 @@ Location places[] = {
        // Delay_ms(2000);
     }
 
+    LCD_init();
+    LCD_command(0x01);  // Clear display
+    LCD_command(0x80);  // Set cursor to first row
 
+    delayMs(100);  // Extra delay after initialization
+    LCD_data('A'); // Display 'A'
+   
+    while(1);
         
 			}    
 			   
 		}	  
 		
-	// main bracket
 	
-
-/*
-Current Location: 3003.84874,N,03116.74389,E,
-
-   const char *input = "123.45";                  // to check the function with tiva
-	//	float f = 12.34f;
-
-    float number = simple_atof(input);
-
-    // You can use sprintf to print float to UART if printf doesn't support it
-    char buffer[32];
-    sprintf(buffer, "Converted: %.2f\n", number);
-
-    
-    UART0_SendString(buffer);  
-
-   // while (1);
-		
-		
-	}
-		
 		
 	
-  //  UART0_Init();  // Make sure UART is set up            // to check if the keil is configured to use floating point
-    UART0_SendString("Booting...\n");
-
-  //  enable_fpu(); 
-    UART0_SendString("FPU enabled\n");
-
-    float f = 12.34f;
-    char buf[32];
-    sprintf(buf, "Float: %.2f\n", f);
-    UART0_SendString(buf);
-
-  //  while (1);
-}//    */
-//Test this alone. If this doesn't output, your Keil config is the issue.
+  
 		
 
 
